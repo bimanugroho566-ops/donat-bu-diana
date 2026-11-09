@@ -1,4 +1,25 @@
-{"name":"donatkita","private":true,"version":"1.0.0","type":"module",
-"scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},
-"dependencies":{"pinia":"^2.2.6","vue":"^3.5.13","vue-router":"^4.5.0"},
-"devDependencies":{"@vitejs/plugin-vue":"^5.2.1","vite":"^6.0.3"}}
+{
+  "name": "donat-bu-diana",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/api.js"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^0.454.0",
+    "pinia": "^2.2.4",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.9"
+  }
+}
